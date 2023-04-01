@@ -55,13 +55,13 @@ include "db_conn.php";
                 if(mysqli_query($conn, "INSERT INTO st_timein (st_date, st_timein) VALUES ('$date','$timein');")){
                     ?>
                     <script type="text/javascript">
-                        alert("Successfully.")
+                        alert("Successfully TimeIn: Student ID - TimeIn.")
                     </script>
                     <?php
                 }else{
                     ?>
                     <script type="text/javascript">
-                        alert("not Successfully.")
+                        alert("Error Found.")
                     </script>
                     <?php
                 }
@@ -75,13 +75,13 @@ include "db_conn.php";
                 if(mysqli_query($conn, "INSERT INTO st_timeout (st_date, st_timeout) VALUES ('$date','$timeout');")){
                     ?>
                     <script type="text/javascript">
-                        alert("Successfully.")
+                        alert("Successfully TimeOut: Student ID - TimeOut.")
                     </script>
                     <?php
                 }else{
                     ?>
                     <script type="text/javascript">
-                        alert("not Successfully.")
+                        alert("Error Found.")
                     </script>
                     <?php
                 }
