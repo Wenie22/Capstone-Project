@@ -1,5 +1,5 @@
 <?php
-  $servername = "containers-us-west-29.railway.app";
+  $servername = "localhost";
   $username = "root";
   $password = "FdmRrA8CShpnSG7YStpQ";
 
