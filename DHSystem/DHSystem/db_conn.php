@@ -1,13 +1,16 @@
 <?php
-  $servername = "fdb29.awardspace.net";
-  $username = "4231432_hkduty";
-  $password = "hkduty_4231432";
+  $servername = "containers-us-west-176.railway.app";
+  $username = "root";
+  $password = "uF5UgfB1A5DbRb4LcZOA";
 
-  $db_name = "4231432_hkduty";
+  $db_name = "railway";
   
   $conn = new mysqli($servername, $username, $password, $db_name);
   
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+  }
+  else {
+    echo "success";
   }
 ?>
